@@ -36,10 +36,10 @@ app
     var tl = gsap.timeline({
       scrollTrigger: {
         trigger: ".container",
-        start: "0.5% 0%",
-        end: "5% 100%",
+        start: "1% 0%",
+        end: "100% 100%",
         scrub: true,
-        markers: false,
+        markers: true,
       },
     });
 

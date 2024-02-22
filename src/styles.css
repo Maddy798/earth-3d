@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background: #000;
 }
 
 canvas {
@@ -12,7 +13,7 @@ canvas {
 }
 
 .container {
-  height: 5000vh;
+  height: 200vh;
   background: #000;
   position: relative;
 }
@@ -88,7 +89,7 @@ nav ul button {
 
 .page2 {
   position: absolute;
-  top: 3.05%;
+  top: 50%;
   display: flex;
   justify-content: space-between;
   align-items: center;
